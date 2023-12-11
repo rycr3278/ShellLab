@@ -1,3 +1,30 @@
+# Summary of CSPB 2400 - Shell Lab: Writing Your Own Unix Shell
+
+**Focus:** 
+This lab is designed to deepen understanding of process control and signalling in Unix by writing a simple Unix shell program that supports job control. It was originally assigned as a class project for CSPB 2400 - Computer Systems.
+
+**Key Skills Developed:**
+- Gaining hands-on experience with Unix shell functionalities, including process creation, signalling, and job control.
+- Implementing built-in shell commands and handling signals such as SIGINT and SIGTSTP.
+- Managing foreground and background processes and implementing job control commands like `bg`, `fg`, and `jobs`.
+
+**Project Structure:**
+- The main task is to complete the implementation of specified functions in the `tsh.cc` file.
+- Functions to implement include `eval`, `builtin_cmd`, `do_bgfg`, `waitfg`, `sigchld_handler`, `sigint_handler`, and `sigtstp_handler`.
+
+**Assignment Highlights:**
+- Creating a shell that can parse and execute command lines with built-in commands and external programs.
+- Implementing job control features to allow background and foreground process management.
+- Handling Unix signals and managing child processes appropriately.
+
+**Learning Insights:**
+- Understanding the intricacies of Unix process control, including process groups, signals, and job states.
+- Developing a robust and functional shell that can handle various user commands and system signals.
+- Learning to use Unix system calls such as `fork`, `execve`, `waitpid`, and signal handling functions.
+
+**Below are the original assignment instructions, unaltered.**
+
+
 
 #    CSPB 2400 - Shell Lab: Writing Your Own Unix Shell
 
